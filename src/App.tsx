@@ -2,6 +2,7 @@ import Furniture from './components/Furniture/Furniture'
 import Navbar from './components/Navbar/Navbar'
 import './App.css'
 import ProductList from './components/ProductList/ProductList'
+import BestServices from './components/BestServices/BestServices'
 
 const App: React.FC = () => {
 
@@ -10,6 +11,7 @@ const App: React.FC = () => {
         <Navbar />
         <Furniture />
         <ProductList />
+        <BestServices />
     </div>
   )
 

@@ -1,8 +1,10 @@
-
+import "./index.css";
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { store } from '../store';
 import App from './App';
+import './icons/fontawesome';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(

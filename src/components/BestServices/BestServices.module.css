@@ -1,0 +1,27 @@
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h3{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: rgba(37, 43, 66, 1);
+}
+
+p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgba(115, 115, 115, 1);
+
+}

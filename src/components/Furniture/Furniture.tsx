@@ -28,7 +28,7 @@ function Furniture() {
             <img
             src="/furniture2.svg"
             alt="Furniture 2"
-            className={styles.picF1}
+            className={styles.picF2}
             />
         </picture>
       <img src="/furniture3.svg" alt="Furniture 3" className={styles.picF3} />
