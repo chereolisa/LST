@@ -162,7 +162,41 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbarList, .searchBar {
+    gap: 0.5rem;
+  }
+
+  .contactInfo, .socials {
+    gap: 0.5rem;
+  }
+
+  .contactInfo span, .discountAd p, .socials p {
+    font-size: 12px;
+  }
+
+  .brand h1 {
+    font-size: 20px;
+  }
+
+  .shop {
+    font-size: 12px;
+  }
+
+  .navbarItem {
+    font-size: 12px;
+  }
+
+  .searchBar h6 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 844px) {
   .hamburger {
     display: flex;
   }
@@ -196,4 +230,12 @@
   .searchBar h6 {
     display: none;
   }
+
+  .searchBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
 }

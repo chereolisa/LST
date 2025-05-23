@@ -49,13 +49,20 @@ function Footer() {
                     <li className={styles.li}>API</li>
                 </ul>
 
-                <label className={styles.label}>Get In Touch
-                    <input type="text" placeholder="Enter your email" className={styles.input} />
+                <label className={styles.email}>Get In Touch <br />
+                    <input type="text" placeholder="Your Email" className={styles.input} />
                     <button className={styles.button}>Subscribe</button>
                     <p className={styles.p}>Lore imp sum dolor Amit</p>
                 </label>
             </div>
             
+            <div className={styles.copyright}>
+                <p className={styles.copyrightText}>
+                    Made With Love By<br className={styles.mobileBreak} />
+                    Finland All Right Reserved 
+                </p>
+            </div>
+
         </div>
     )
 

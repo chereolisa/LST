@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 
-h4{
+.h4{
     font-family: Montserrat;
     font-weight: 400;
     font-size: 20px;
@@ -22,7 +22,7 @@ h4{
 }
 
 
-h3{
+.h3{
     font-family: Montserrat;
     font-weight: 700;
     font-size: 24px;
@@ -32,7 +32,7 @@ h3{
     color: rgba(37, 43, 66, 1);
 }
 
-p {
+.p {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 14px;

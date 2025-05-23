@@ -16,7 +16,7 @@ const ProductList: React.FC = () => {
   }, [data]);
 
   if (isLoading && page === 1) return <div className={styles.loading}>Loading...</div>;
-  if (isError || !data) return <div>Error loading products</div>;
+  if (isError || !data) return <div className={styles.loading}>Error loading products</div>;
 
   const handleLoadMore = () => {
     setPage((prevPage) => prevPage + 1);
