@@ -1,3 +1,18 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: rgba(37, 43, 66, 1);
+
+}
+
+
 .h4 {
   font-family: Montserrat;
   font-weight: 400;
@@ -26,7 +41,7 @@
   letter-spacing: 0.2px;
   text-align: center;
   color: rgba(115, 115, 115, 1);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .title {
@@ -57,7 +72,8 @@
   line-height: 24px;
   letter-spacing: 0.1px;
   text-align: center;
-  color: rgba(35, 133, 109, 1);
+  color: rgba(189, 189, 189, 1);
+  
 }
 
 .discount {
@@ -67,7 +83,7 @@
   line-height: 24px;
   letter-spacing: 0.1px;
   text-align: center;
-  color: rgba(189, 189, 189, 1);
+  color: rgba(35, 133, 109, 1);
 
 }
 
@@ -88,6 +104,7 @@
 
 .productList {
   padding: 20px;
+  margin-bottom: 7rem;
 }
 
 .grid {

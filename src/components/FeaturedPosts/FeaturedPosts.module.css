@@ -1,0 +1,36 @@
+h6 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgba(35, 166, 240, 1);
+
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgba(37, 43, 66, 1);
+}
+
+.featuredPosts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+}
+
+@media (max-width: 768px) {
+    .featuredPosts {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
