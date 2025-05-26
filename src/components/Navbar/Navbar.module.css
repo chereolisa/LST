@@ -103,11 +103,29 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
-  margin-left: 20px;
+  margin-left: 1rem;
+  justify-content: flex-end;
+  align-items: flex-end; /* Aligns the lines to the right */
 }
 
-.hamburger div {
+.hamburger1 {
   width: 25px;
+  height: 3px;
+  background-color: #2c3e50;
+  margin: 2px 0;
+  transition: all 0.3s ease;
+}
+
+.hamburger2 {
+  width: 18px;
+  height: 3px;
+  background-color: #2c3e50;
+  margin: 2px 0;
+  transition: all 0.3s ease;
+}
+
+.hamburger3 {
+  width: 10px;
   height: 3px;
   background-color: #2c3e50;
   margin: 2px 0;
@@ -123,7 +141,7 @@
     gap: 1rem;
 }
 
-.navbarItem {
+.navbarItem, .home, .contact {
     list-style: none;
     font-family: Montserrat;
     font-weight: 700;
@@ -134,11 +152,24 @@
     color: rgba(115, 115, 115, 1);
 }
 
+.product, .pricing {
+    list-style: none;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgba(115, 115, 115, 1);
+    display: none;
+}
+
+
 .searchBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 .searchBar h6{
@@ -160,6 +191,10 @@
     text-align: center;
     color: rgba(35, 166, 240, 1);
 
+}
+
+.user, .search, .cart, .heart {
+    color: rgba(35, 166, 240, 1);
 }
 
 @media (max-width: 1200px) {
@@ -209,7 +244,6 @@
     left: 0;
     width: 100%;
     background-color: #fff;
-    border-top: 1px solid #ccc;
     padding: 10px 0;
     z-index: 1000;
   }
@@ -218,10 +252,27 @@
     display: flex;
   }
 
-  .navbarItem {
+  .home, .contact, .product, .pricing {
+    display: block;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.2px;
+    text-align: center;
     margin: 10px 0;
     text-align: center;
   }
+
+  .home, .contact, .pricing {
+    font-weight: 600;
+  }
+
+  .navbarItem {
+    display: none;
+  }
+
+
 
   .navbar {
     display: none;
@@ -235,7 +286,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
   }
+
+  .user, .search, .cart {
+    color: rgba(37, 43, 66, 1);
+}
+
+.heart, .count {
+  display: none !important;
+}
+
 
 }

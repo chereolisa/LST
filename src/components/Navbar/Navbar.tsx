@@ -41,30 +41,32 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 <h1>Bandage</h1>
 
                 <ul className={`${styles.navbarList} ${isMenuOpen ? styles.active : ''}`}>
-                    <li className={styles.navbarItem}>Home</li>
+                    <li className={styles.home}>Home</li>
                     <li className={styles.navbarItem}>
                         <span className={styles.shop}>Shop</span>&nbsp;
                         <i className="fas fa-chevron-down" style={{color: "rgba(37, 43, 66, 1)"}}></i>
                     </li>
+                    <li className={styles.product}>Product</li>
                     <li className={styles.navbarItem}>About</li>
+                    <li className={styles.pricing}>Pricing</li>
                     <li className={styles.navbarItem}>Blog</li>
-                    <li className={styles.navbarItem}>Contact</li>
+                    <li className={styles.contact}>Contact</li>
                     <li className={styles.navbarItem}>Pages</li>
                 </ul>
             </div>
 
             <div className={styles.searchBar}>
-                <h6><i className="far fa-user" style={{color: "rgba(35, 166, 240, 1)"}}></i>&nbsp;&nbsp;Login / Register</h6>
-                <i className="fas fa-search" style={{color: "rgba(35, 166, 240, 1)"}}></i>
-                <i className="fas fa-shopping-cart" style={{color: "rgba(35, 166, 240, 1)"}}></i>
+                <h6><i className={`far fa-user ${styles.user}`}></i>&nbsp;&nbsp;Login / Register</h6>
+                <i className={`fas fa-search ${styles.search}`}></i>
+                <i className={`fas fa-shopping-cart ${styles.cart}`}></i>
                     <span className={styles.count}>1</span>
-                <i className="far fa-heart" style={{color: "rgba(35, 166, 240, 1)"}}></i>
+                <i className={`far fa-heart ${styles.heart}`}></i>
                     <span className={styles.count}>1</span>
                 
                 <div className={styles.hamburger} onClick={toggleMenu}>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div className={styles.hamburger1}></div>
+                        <div className={styles.hamburger2}></div>
+                        <div className={styles.hamburger3}></div>
                 </div>
             </div>
 

@@ -91,7 +91,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
   gap: 1rem;
   
@@ -110,19 +110,20 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: space-between;
-  padding: 2.5rem;
+  padding: 4rem;
 }
 
 .productCard {
   flex: 1 1 calc(18% - 20px);
   min-width: 180px;
+  max-width: 250px;
   background: #fff;
   border-radius: 8px;
   overflow: hidden;
   text-align: center;
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
 
 .productImage {
@@ -164,10 +165,12 @@
   }
   .grid {
     gap: 10px;
+    padding: 2rem;
   }
   .productCard {
     flex: 1 1 calc(33.33% - 10px);
     min-width: 150px;
+    max-width: 200px;
   }
   .productImage {
     height: 150px;

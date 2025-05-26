@@ -15,7 +15,17 @@ function Reviews() {
                     <p className={styles.position}>Designer</p>
                 </div>
                 <div className={styles.gallery}>
-                    <img src="/gallery.svg" alt="gallery" />
+                    <picture>
+                        <source
+                        media="(max-width: 768px)"
+                        srcSet="/gallery-mobile.svg"
+                        />
+                        <img
+                        src="/gallery.svg"
+                        alt="Gallery"
+                        className={styles.galleryImage}
+                        />
+                    </picture>
                 </div>
             </div>
             <div className={styles.experience}>

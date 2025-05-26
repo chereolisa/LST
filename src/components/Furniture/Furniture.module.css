@@ -36,6 +36,17 @@
     justify-content: center;
     align-items: center;
 }
+
+.pic2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    
+}
 }
 
 @media (max-width: 768px) {
